@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Movie</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-secondary   height-nav " data-bs-theme="dark">
+        <div class="container-fluid" style="padding: 0 10%;">
+            <a class="navbar-brand" href="index.html">
+                <img src="logo-mh-removebg-preview.png" alt="" style="height:75px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse links-own" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Actors
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="pro.html">The Professor</a></li>
+                            <li><a class="dropdown-item" href="tokyo.html">Tokyo</a></li>
+                            <li><a class="dropdown-item" href="berlin.html">Berlin</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Christian Ackon</a>
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <section>
+        <div class="about">
+            <div class="about-text mid">
+                <h1>About Tokyo</h1>
+                <p>
+                    Tokyo, played by Úrsula Corberó, is one of the main characters in the television series Money Heist.
+                    She is a skilled thief and one of the eight robbers who carry out the heist on the Royal Mint of
+                    Spain. She is also the narrator of the show and provides much of the voiceover commentary throughout
+                    the series.
+                    <br>
+                    <br>
+                    Tokyo is portrayed as a strong-willed and impulsive character who is willing to take risks to
+                    achieve her goals. She is a skilled fighter and is not afraid to use violence when necessary.
+                    However, her impulsiveness often leads her into trouble, and she is often at odds with the more
+                    cautious members of the gang.
+                    <br>
+                    <br>
+                    In addition to her role as a thief, Tokyo's relationship with Rio, another member of the gang, is a
+                    key subplot throughout the show. The two characters have a tumultuous relationship, with moments of
+                    intense passion and conflict. Tokyo's relationship with the other members of the gang is also
+                    explored throughout the show, with the character forming close bonds with some members and
+                    struggling to connect with others.
+                    <br>
+                    <br>
+                    Throughout the show, Tokyo's role in the heist evolves as she becomes more involved in the planning
+                    and execution of the robbery. Her ability to think on her feet and her fearlessness in dangerous
+                    situations prove to be valuable assets to the gang.
+                    <br>
+                    <br>
+                    Overall, Tokyo is a complex and multi-dimensional character, whose relationships with other
+                    characters and her personal journey throughout the show are a key part of the series' drama and
+                    tension.
+                </p>
+            </div>
+            <div class="about-image">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="Tokyo.Money-Heist.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+
+    <footer>
+        <div class="footer-image">
+            <img src="logo-mh-removebg-preview.png" alt="">
+        </div>
+        <div class="footer-detail">
+            <h1>Kumasi Technical University</h1>
+            <h2>Computer Science</h2>
+            <h3>B'Tech Computer Technology</h3>
+            <p>
+                Christian Ackon
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            // direction: "vertical",
+            autoplay: true,
+            speed: 1500,
+            effect: "coverflow",
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
